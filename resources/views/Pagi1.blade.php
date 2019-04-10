@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pagina1</title>
-</head>
-<body>
-    <h1>Pagina1</h1>
-</body>
-</html>
+@include('header')
+    <h1>Página 1</h1>
+        <p>Nome= {{$Nome}}<br/>Email= {{$Email}}<br/>Idade= {{$Idade}};<br/>Telefone= {{$Telefone}}<br/>Mensagem= {{$Mensagem}}</p>
+@include('footer')
