@@ -5,4 +5,5 @@
             Idade {{$idade}}<br/>
             Telefone {{$Telefone}}<br/>
             Mensagem= {{$Mensagem}}</p>
+            <h6>Obrigado</h6>
 @include('footer')
